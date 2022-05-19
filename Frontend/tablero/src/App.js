@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import logo from './chessBoard.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div className = "izquierda">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bienvenido ChessOnline de LongCastling
         </p>
         <a
           className="App-link"
@@ -15,8 +16,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React hola 
+          Learn React
         </a>
+        </div>
+        <div className = "derecha">
+
+      TODO DERECHA
+
+        </div>
       </header>
     </div>
   );
