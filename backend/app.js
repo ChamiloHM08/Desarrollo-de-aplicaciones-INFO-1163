@@ -7,7 +7,6 @@ const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
 
-    // get the gameID encoded in the URL. 
     // se obtiene la id del juego con la direccion URL
     // se verifica si la id del juego coincide con todos los juegos actualmente en sesion
     // Se une a la sesion de juego existente
